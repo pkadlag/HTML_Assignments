@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Application Form creation</title>
+    
+</head>
+<body bgcolor="cyan">
+    <h1><b><u>Online Registration Form</u></b></h1>
+    <form>
+    <label>First Name :</label><br>
+    <input type="text" name="Firstname" id="name" pattern="[a-zA-Z]{4,25}" title="invalid" placeholder="Enter Firstname" required> <br><br>
+
+    <label>Last Name :</label><br>
+    <input type="text" name="Lastname" id="name" pattern="[a-zA-Z]{4,25}" title="invalid" placeholder="Enter Lastname" required> <br><br>
+    
+    <label>Address :</label><br>
+    <textarea rows="3" cols="30"></textarea><br><br>
+
+    <label>Email id :</label><br>
+    <input type="email" name="email"required><br><br>
+    
+    <label>City :</label><br>
+    <select>
+            <option value="Pune">Pune</option>
+            <option value="Noida">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Vizag">Vizag</option>
+            </select><br> <br>
+
+    <label>State :</label><br>
+     <select>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Tamilnadu">Tamilnadu</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            </select> <br> <br>
+
+    <label>University Branch Name :</label><br>
+    <input type="text" name="Branch Name"> <br><br>
+
+    <label>Phone Number :</label><br>
+    <input type="Number" maxlength="10" name="Phone Number"><br><br>
+
+    <label>Enrolled Course :</label><br>
+    <input type="Number" name="Enrolled Course"><br><br>
+
+    <label>Date of Test :</label><br>
+    Day
+<select name='day' id='dayddl'>
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
+<option value='5'>5</option>
+<option value='6'>6</option>
+<option value='7'>7</option>
+<option value='8'>8</option>
+<option value='9'>9</option>
+<option value='10'>10</option>
+<option value='11'>11</option>
+<option value='12'>12</option>
+<option value='13'>13</option>
+<option value='14'>14</option>
+<option value='15'>15</option>
+<option value='16'>16</option>
+<option value='17'>17</option>
+<option value='18'>18</option>
+<option value='19'>19</option>
+<option value='20'>20</option>
+<option value='21'>21</option>
+<option value='22'>22</option>
+<option value='23'>23</option>
+<option value='24'>24</option>
+<option value='25'>25</option>
+<option value='26'>26</option>
+<option value='27'>27</option>
+<option value='28'>28</option>
+<option value='29'>29</option>
+<option value='30'>30</option>
+<option value='31'>31</option>
+</select>
+
+Month
+<select name='month' id='monthddl'>
+<option value='1'>1</option>
+<option value='2'>2</option>
+<option value='3'>3</option>
+<option value='4'>4</option>
+<option value='5'>5</option>
+<option value='6'>6</option>
+<option value='7'>7</option>
+<option value='8'>8</option>
+<option value='9'>9</option>
+<option value='10'>10</option>
+<option value='11'>11</option>
+<option value='12'>12</option>
+</select>
+
+Year
+<select name='day' id='blah'>
+<option value='2017'>2017</option>
+<option value='2018'>2018</option>
+<option value='2019'>2019</option>
+<option value='2020'>2020</option>
+</select><br><br>
+
+<label>Written Test Marks :</label><br>
+<input type="Number" name="Test Marks" min="50" max="100" title="invalid"> <br><br>
+
+<button type="submit" value="Submit">submit </button><br><br>
+
+
+    
+    </form>    
+</body>
+</html>
